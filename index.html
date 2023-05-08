@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Microverse's Little Survey</title>
+</head>
+<body>
+  
+  <h1 id="title">How Do You Know Microverse?</h1>
+  
+  <p id="description">This form help us to know how do you know about Microverse</p>
+  
+  <form id="survey-form">
+
+<label>Name 
+  <input type="text" id="name" name="name" required placeholder="Enter your name" />
+</label>
+
+  <label for="email" id="email-label">Email</label>
+  <input id="email" type="email" required placeholder="Enter your email"/>
+  <label for="number" id="number-label"> Age (optional)</label>
+  <input id="number" type="number" min="1" max="10" required placeholder="Age">
+  <label for="select" id="Sex">Sex</label>
+  <select id="dropdown">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    </select>
+    <fieldset>
+      <legend>Where do you know about Microverse?</legend>
+      <input id="Facebook" type="radio" value="Facebook" name="action">
+      <label for="Facebook">Facebook</label><br>
+      <input id="Friend" type="radio" value="Friend" name="action">
+      <label for="Friend">Friend</label><br>
+      <input id="Youtube" type="radio" value="Youtube" name="action">
+      <label for="youtube">youtube</label><br>
+      </fieldset>
+  
+      <p>
+        What makes you interested to join to Microverse?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+  
+    <label><input name="prefer" value="course-content" type="checkbox" class="input-checkbox">Course Content</label><br>
+    <label><input name="prefer" value="improve-english" type="checkbox" class="input-checkbox">Improve English</label><br>
+    <label><input name="prefer" value="well-paid-job" type="checkbox" class="input-checkbox">Well Paid Job</label><br>
+    <label><input name="prefer" value="study-with-people-around-the-world" type="checkbox" class="input-checkbox">To Study with people from around the world.</label><br>
+  
+     
+   <p>Comment us if you know something about code before and how was your experience?</p>
+  
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+  
+      <div>
+        <button id="submit" type="submit">submit</button>
+        
+    </div>
+  
+    </form>
+  
+    </body>
+</html>
